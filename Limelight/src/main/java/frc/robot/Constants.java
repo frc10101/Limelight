@@ -4,6 +4,8 @@
 
 package frc.robot;
 
+public class Constants {
+  // Add your constants here
 import com.pathplanner.lib.path.PathConstraints;
 
 import edu.wpi.first.math.geometry.Pose2d;
@@ -172,4 +174,3 @@ public final class Constants {
   public static final class LocalizationConstants {
     public static final Pose2d kRedReefKL = new Pose2d(13.97, 1.97, Rotation2d.fromDegrees(112));  
   }
-}
