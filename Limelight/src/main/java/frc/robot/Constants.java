@@ -1,4 +1,6 @@
 package frc.robot;
 public class Constants  {
-    int pigeonID = 1;
+    public static int[] validIDs = {1, 2};
+    public int pigeonID = 0;
+    public String limelightID = "limelight";
 }
